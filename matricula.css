@@ -1,0 +1,42 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+form {
+	width: 60%;
+	margin: 40px auto;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(100, 200, 190, 1.9);
+  margin-left: 270px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="tel"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #566;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+h1 {
+
+	text-align: center
+}

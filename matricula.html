@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Pre-Matricula</title>
+	<link rel ="stylesheet" href="matricula.css">
+</head>
+<body>
+	<h1>Formulario de Pre-Matricula 2024</h1>
+	<h1>DATOS DEL ALUMNO</h1>
+	<form action="register.php" method="post">
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre"><br><br>
+		<label for="apellido">Apellido:</label>
+		<input type="text" id="apellido" name="apellido"><br><br>
+		<label for="edad">Edad:</label>
+		<input type="number" id="edad" name="edad"><br><br>
+		<label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+		<input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+		<label for="identidad">Identidad:</label>
+		<input type="text" id="identidad" name="identidad"><br><br>
+		<label for="lugar_residencia">Lugar de Residencia:</label>
+		<input type="text" id="lugar_residencia" name="lugar_residencia"><br><br>
+		<label for="municipio">Municipio:</label>
+		<input type="text" id="municipio" name="municipio"><br><br>
+		<label for="departamento">Departamento:</label>
+		<input type="text" id="departamento" name="departamento"><br><br>
+		<label for="numero_telefono">Numero de Telefono:</label>
+		<input type="tel" id="numero_telefono" name="numero_telefono"><br><br>
+		<label for="sexo">Sexo:</label>
+		<select id="sexo" name="sexo">
+			<option value="Masculino">Masculino</option>
+			<option value="Femenino">Femenino</option>
+		</select><br><br>
+
+		<h1>DATOS DE LOS PADRES</h1>
+		<div>
+    <label for="nombre_padre">Nombre del padre:</label>
+    <input type="text" id="nombre_padre" name="nombre_padre">
+  </div>
+  <div>
+    <label for="apellido_padre">Apellido del padre:</label>
+    <input type="text" id="apellido_padre" name="apellido_padre">
+  </div>
+  <div>
+    <label for="edad_padre">Edad del padre:</label>
+    <input type="number" id="edad_padre" name="edad_padre">
+  </div>
+  <div>
+    <label for="ocupacion_padre">Ocupacion del padre:</label>
+    <input type="text" id="ocupacion_padre" name="ocupacion_padre">
+  </div>
+  <div>
+    <label for="nombre_madre">Nombre de la madre:</label>
+    <input type="text" id="nombre_madre" name="nombre_madre">
+  </div>
+  <div>
+    <label for="apellido_madre">Apellido de la madre:</label>
+    <input type="text" id="apellido_madre" name="apellido_madre">
+  </div>
+  <div>
+    <label for="edad_madre">Edad de la madre:</label>
+    <input type="number" id="edad_madre" name="edad_madre">
+  </div>
+  <div>
+    <label for="ocupacion_madre">Ocupacion de la madre:</label>
+    <input type="text" id="ocupacion_madre" name="ocupacion_madre">
+  </div>
+	<h1>CARRERA QUE DESEAS ESTUDIAR</h1>
+
+	<label for="jornada">Jornada:</label>
+	<select id="jornada" name="jornada">
+		<option value="">Seleccione una opcion</option>
+		<option value="Mañana">Mañana</option>
+		<option value="Tarde">Tarde</option>
+	<option value="Tarde">Noche</option>
+	</select>
+	<br><br>
+	<label for="seccion">Seccion:</label>
+	<select id="seccion" name="seccion">
+		<option value="">Seleccione una opcion</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+	</select>
+	<br><br>
+	<label for="carrera">Carrera:</label>
+	<select id="carrera" name="carrera">
+		<option value="">Seleccione una opcion</option>
+		<option value="Informatica"> BTP Informatica</option>
+		<option value="Humanidades"> BTP Ciencias y Humanidades</option>
+		<option value="Administracion de Empresa"> BTP Administracion de Empresas</option>
+	<option value="Taller de Hogar">BTP Contaduria Y Finanzas </option>
+	<option value="Electricidad">BTP Control Y calidad</option>
+	</select>
+	<br><br>
+
+	<h1>CICLO COMUN</h1>
+	<label for="ciclo">Ciclo Comun:</label>
+	<select id="ciclo" name="ciclo">
+		<option value="">Seleccione una opcion</option>
+		<option value="Septimo">Septimo</option>
+		<option value="Octavo">Octavo</option>
+		<option value="Noveno">Noveno</option>
+
+	</select>
+
+
+
+
+<input type="submit" value="Enviar">
+	</form>
+
+
+
+
+</body>
+</html>
